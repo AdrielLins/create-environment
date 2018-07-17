@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name     Always Focus
-// @version    0.1.1
-// @description Makes tdInterativa always with focus.
-// @include  http://tdinterativa.natura.net/*
-// @run-at   document-start
-// @grant    none
-// @copyright  2018+, Adriel Lins Maciel
+// @name     		AlwaysFocus
+// @version      	1.0
+// @description  	JavaScript Extension Td Interativa
+// @author       	Adriel Lins Maciel <adriellm@gmail.com>
+// @source   		https://github.com/AdrielLins/create-environment/blob/master/AllwaysOnFocus.js
+// @match        	http://tdinterativa.natura.net/*
+// @run-at   		document-start
+// @grant    		none
 // ==/UserScript==
 
 document.hasFocus = function () {
